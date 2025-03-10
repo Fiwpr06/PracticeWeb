@@ -1,0 +1,19 @@
+# Ignore node_modules
+node_modules/
+
+#  Ignore build directory
+.parcel-cache/
+dist/
+build/
+
+# Ignore CODE files like VSCode, JetBrains
+.idea/
+.cache/
+.vscode/
+
+# Ignore files containing security information such as API keys, database credentials
+.env
+.env.local
+.env.development
+.env.production
+.env.test

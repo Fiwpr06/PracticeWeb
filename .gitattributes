@@ -1,0 +1,9 @@
+# Make sure all text files use LF (avoid errors on Windows
+* text=auto eol=lf
+
+# Fix some specific file types to LF
+*.sh eol=lf
+*.js eol=lf
+*.css eol=lf
+
+*.bat eol=crlf
